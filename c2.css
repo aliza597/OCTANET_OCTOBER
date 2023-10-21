@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#task-form input, #task-form select, #task-form button {
+    margin: 10px;
+    padding: 5px;
+}
+
+.task {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.high-priority {
+    color: red;
+}
+
+.medium-priority {
+    color: orange;
+}
+
+.low-priority {
+    color: green;
+}
